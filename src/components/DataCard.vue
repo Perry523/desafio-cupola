@@ -1,13 +1,13 @@
 <template>
   <v-card width="240px" class="pl-0 pa-5 pb-8 rounded-lg elevation-1">
     <v-row justify="end" class="mb-n4">
-      <v-tooltip top color="black" content-class="tooltip-top">
+      <v-tooltip top content-class="tooltip-top tooltip-decoration">
         <template v-slot:activator="{ on, attrs }">
           <v-icon v-bind="attrs" v-on="on" size="18"
             >mdi-information-outline</v-icon
           >
         </template>
-        <span>{{ helper }}</span>
+        <div>{{ helper }}</div>
       </v-tooltip>
     </v-row>
     <v-row class="pa-3 pl-8">

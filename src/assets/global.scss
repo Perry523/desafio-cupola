@@ -12,7 +12,13 @@
   left: 50%;
   height: 0;
   width: 0;
-  border-top: solid 8px #000;
+  border-top: solid 8px #203B43;
+}
+.tooltip-decoration {
+  max-width: 260px;
+  margin-bottom: 40px !important;
+  background: #203B43 !important;
+  font-size: 11px !important;
 }
 .v-application {
   font-family: "Lexend Deca" !important;
