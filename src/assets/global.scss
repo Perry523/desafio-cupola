@@ -1,0 +1,19 @@
+.global-background {
+  background: #f3f6f7;
+}
+.tooltip-top::before {
+  border-right: solid 8px transparent;
+  border-left: solid 8px transparent;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: -21;
+  content: "";
+  top: 100%;
+  left: 50%;
+  height: 0;
+  width: 0;
+  border-top: solid 8px #000;
+}
+.v-application {
+  font-family: "Lexend Deca" !important;
+}
